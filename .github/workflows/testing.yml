@@ -15,7 +15,7 @@ jobs:
         ruby:
           - truffleruby-head
           - 3.0 
-          - ruby-head
+          - ruby-head 
 
 
     continue-on-error: ${{ endsWith(matrix.ruby, 'head') }}
